@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Computer Science",
+    "subtitle": "What is a Computer Science?",
+    "body": "Computing is part of everything we do. Computing drives innovation in engineering, business, entertainment, education, and the sciences—and it provides solutions to complex, challenging problems of all kinds.Computer science is the study of computers and computational systems. It is a broad field which includes everything from the algorithms that make up software to how software interacts with hardware to how well software is developed and designed. Computer scientists use various mathematical algorithms, coding procedures, and their expert programming skills to study computer processes and develop new software and systems."
+  },
+  {
+    "id": 2,
+    "title": "Information Technology",
+    "subtitle": "What is an information technology?",
+    "body": "Information technology (IT) is the hardware and software used to create, store, transmit, manipulate, and display information and data. Metaphorically, it is the lifeblood of the Information Age. On a high level, it is anything and everything that has to do with computing and communications. That said, the term is generally applied only to technologies used in a business environment. If you take a TV and use it to display data, you’re looking at a piece of information technology. It’s not always the technology itself but how it is applied determines whether it gets the IT label."
+  },
+  {
+    "id": 3,
+    "title": "Information System",
+    "subtitle": "What is an information system?",
+    "body": "An information system (IS) is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. From a sociotechnical perspective, information systems are composed by four components: task, people, structure (or roles), and technology. Information systems can be defined as an integration of components for collection, storage and processing of data of which the data is used to provide information, contribute to knowledge as well as digital products that facilitate decision making."
+  }
+]

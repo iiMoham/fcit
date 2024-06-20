@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- header -->
+    {% include "header.html" %}
+
+    <body>
+        <!-- Navigation-->
+
+        {% include 'nave.html' %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('static/assets/img/home-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>Discover Your Path at FCIT</h1>
+                            <span class="subheading">Explore Majors Tailored to Your Interests and Goals.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href=" {{ url_for('get_post' ,num=0)}} ">
+                            <h2 class="post-title">{{data[0]['title']}}</h2>
+                            <h3 class="post-subtitle">{{data[0]['subtitle']}}</h3>
+                        </a>
+
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href=" {{ url_for('get_post' ,num=1)}} ">
+                            <h2 class="post-title">{{data[1]['title']}}</h2>
+                            <h3 class="post-subtitle">{{data[1]['subtitle']}}</h3>
+                        </a>
+
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                       <a href=" {{ url_for('get_post' ,num=2)}} ">
+                            <h2 class="post-title">{{data[2]['title']}}</h2>
+                            <h3 class="post-subtitle">{{data[2]['subtitle']}}</h3>
+                        </a>
+
+                    </div>
+
+                    <!-- Pager-->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer-->
+        {% include "footer.html" %}
+
+    </body>
+</html>
